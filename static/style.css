@@ -1,0 +1,60 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/01/15/43/black-1072366_960_720.jpg");
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-size: cover; 
+  }
+  form {
+    background-image: url("https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=900&t=st=1663217679~exp=1663218279~hmac=52bc59c461c2ec74f08319c92bf3d07f0ee63b26428f078e78c28a82cb145db3");
+    border: 3px dotted ;
+    border-radius: 30px;
+    padding: 110px 50px 0px 30px;
+    height: 300px;
+    width: 650px;
+  }
+
+  h1 {
+    padding: 0 0 0 0;
+    margin: -70px 0px 50px 190px;
+  }
+  
+  input[type=text] {
+    height: 15%;
+    width: 100%; 
+    padding: 7px 5px;
+    margin: 0 0 3px 0px; 
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  
+  button[type=submit] {
+    padding: 6px 10px;
+    margin: 10px 0 0 0px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 15px;
+    width:100%;
+    background-color: gray;
+    color: white;
+    font-size: 200%;
+    block-size: 20%;
+  }
+
+  button[type=Submit]:hover {
+    background-color: aquamarine;
+    color: black;
+  }
+  
+  h2 {
+    font-size: 200%;
+    text-align: center;
+  }
+  
+  .Login {
+    align-items: center;
+  }

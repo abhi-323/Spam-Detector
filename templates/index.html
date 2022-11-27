@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/style.css" />
+  <title>SPAM DETECTOR</title>
+  
+</head>
+
+<body>
+ <div class="login">
+  <form action="{{ url_for('predict')}}"method="post" autocomplete="on">
+      <h1>SPAM DETECTION</h1>
+      <label for="User_Name" >ENTER YOUR TEXT</label><br>
+      <input type="text" name="inputcheck" placeholder="ENTER MESSAGE" required="required"></input><br><br>
+      <button type="submit" class="btn btn-primary btn-block btn-large">CHECK</button>
+      <h2>
+        {{ prediction_text }} </h2>
+  </form>
+ </div>
+ 
+</body>
+</html>
